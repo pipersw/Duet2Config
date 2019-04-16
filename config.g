@@ -31,7 +31,7 @@ M569 P3 S1 F7                            ; Drive 3 goes forwards (E0) Toff:7
 ;M671 X5:215:5:215 Y5:5:215:215 P0.5      ; adjusting screws at front left (5,5), front right (215,5), rear left (5,215), rear right (215,215), thread pitch 0.5mm
 
 M350 X16 Y16 Z16 E16 I1                  ; Configure microstepping with interpolation
-M92 X100.06 Y100.23 Z400.27 E102.68      ; Set steps per mm
+M92 X98.18 Y99.35 Z400 E102.68      ; Set steps per mm
 M566 X600.00 Y600.00 Z18.00 E300.00      ; Set maximum instantaneous speed changes (mm/min)
 M203 X6000.00 Y6000.00 Z180.00 E6000.00  ; Set maximum speeds (mm/min)
 M201 X1500.00 Y1500.00 Z100.00 E10000.00 ; Set accelerations (mm/s^2)
